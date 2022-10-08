@@ -1,0 +1,171 @@
+* { 
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+    font-family: Outfit, sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+    padding: 18px;
+    width: 450px;
+    height: 680px;
+}
+
+.nft-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+div.view {
+    background-color: cyan;
+    border-radius: 20px;
+    opacity: .6;
+    width: 415px;
+    height: 415px;
+    position: absolute;
+    bottom: 130px;
+    display: none;
+}
+
+.nft:hover .view {
+    display: block;
+    cursor: pointer;
+}
+
+.view-nft-cont {
+    border-radius: 20px;
+    width: 415px;
+    height: 415px;
+    position: absolute;
+    bottom: 106px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.nft:hover .view-nft-cont {
+    display: block;
+    cursor: pointer;
+}
+
+.description {
+    margin: 18px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.text {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.eth-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth-logo {
+    margin-right: 7px;
+}
+
+.price-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.days-data{
+    display: flex;
+    margin-left: 210px;
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    margin-left: 5px;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+}
+
+.line {
+    margin: 18px;
+    border: 1px solid hsl(215, 51%, 70%);
+    width: 400px;
+}
+
+div .creator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 400px;
+    justify-content: flex-start;
+}
+
+.avatar {
+    width: 35px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.jw {
+    margin-left: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.jules {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.jules:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+footer {
+    display: flex;
+    margin: 10px;
+   
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    color: white;
+}
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
+     }
+
+
+
